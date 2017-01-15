@@ -1,0 +1,29 @@
+{
+  "name": "slack-chatbot-foodrecommend",
+  "version": "1.0.0",
+  "description": "food recommendation chatbot for slack",
+  "main": "apps/foodrecommend.js",
+  "dependencies": {
+    "slackbots": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node apps/foodrecommend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccc612/slack-chatbot-foodrecommend.git"
+  },
+  "keywords": [
+    "chatbot",
+    "slack",
+    "foodrecommend"
+  ],
+  "author": "ccc612",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccc612/slack-chatbot-foodrecommend/issues"
+  },
+  "homepage": "https://github.com/ccc612/slack-chatbot-foodrecommend#readme"
+}
